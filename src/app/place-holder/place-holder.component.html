@@ -1,0 +1,21 @@
+<div class="container">
+    <table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Titulo</th>
+            <th scope="col">Corpo</th>
+            <th scope="col">User Id</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let ph of placeholders">
+            <th >{{ph.id}}</th>
+            <td>{{ph.title}}</td>
+            <td>{{ph.body}}</td>
+            <td>{{ph.userId}}</td>
+        </tr>
+    </tbody>
+    </table>
+
+</div>
